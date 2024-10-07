@@ -348,3 +348,29 @@ border-radius: 16px;
 .upload{
   margin-left:5px;
 }
+@media(max-width:1200px){
+  body{
+    grid-template-columns: 70px 1fr;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .sidebar-items samp, .sidebar-items h4{
+    display: none;
+  }
+  .sidebar{
+    height: calc(100vh - 57px);
+  }
+  .sidebar-item{
+    padding: 0 20px;
+  }
+
+    .chips-warpper{
+    max-width: calc(100vw - 70px);
+  }
+}
+
+@media(max-width:800px){
+  .search-content{
+    display: none;
+  }
+}
